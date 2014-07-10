@@ -1,0 +1,45 @@
+{
+    "name" : "podsframework/pods-frontier-auto-template",
+    "description" : "Automatic front-end output of Pods Templates.",
+    "type" : "wordpress-plugin",
+    "keywords" : [ "pods", "wordpress", "templating" ],
+    "license" : "GPL-2.0+",
+    "authors" : [
+        {
+            "name" : "Josh Pollock",
+            "email" : "josh@pods.io",
+            "homepage" : "http://JoshPress.net",
+            "role" : "Lead Developer"
+        },
+        {
+            "name" : "Scott Kingsley Clark",
+            "email" : "scott@pods.io",
+            "homepage" : "http://scottkclark.com/",
+            "role" : "Developer"
+        },
+        {
+            "name" : "Phil Lewis",
+            "email" : "phil@pods.io",
+            "role" : "Developer"
+        },
+        {
+            "name"    : "David Cramer",
+            "homepage": "http://cramer.co.za",
+            "role" : "Developer"
+        },
+        {
+            "name"    : "Pods Framework Team",
+            "email"   : "contact@pods.io",
+            "homepage": "http://pods.io/"
+        }
+    ],
+    "require" : {
+        "composer/installers" : "~1.0.0",
+        "php" : ">=5.2.4",
+        "podsframework/pods" : ">=2.3.18"
+    },
+    "extra" : {
+        "installer-name" : "pods-frontier-auto-template"
+    },
+    "homepage" : "http://pods.io/?p=182830"
+}
