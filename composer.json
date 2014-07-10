@@ -1,5 +1,5 @@
 {
-    "name" : "pods-framework/pods-frontier-auto-template",
+    "name" : "podsframework/pods-frontier-auto-template",
     "description" : "Automatic front-end output of Pods Templates.",
     "type" : "wordpress-plugin",
     "keywords" : [ "pods", "wordpress", "templating" ],
@@ -36,11 +36,14 @@
     "require" : {
         "composer/installers" : "~1.0.0",
         "php" : ">=5.2.4",
-        "pods-framework/pods" : ">=2.3.18"
+        "wpackagist-plugin/pods" : ">=2.3.18"
     },
     "extra" : {
         "installer-name" : "pods-frontier-auto-template"
     },
-    "homepage" : "http://pods.io/?p=182830"
+    "homepage" : "http://pods.io/?p=182830",
+    "support": {
+        "issues": "https://github.com/pods-framework/pods-frontier-auto-template/issues",
+        "source": "https://github.com/pods-framework/pods-frontier-auto-template"
+    },
 }
-
