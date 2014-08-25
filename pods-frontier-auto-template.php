@@ -168,7 +168,7 @@ class Pods_PFAT {
 	 */
 	function tab( $tabs, $pod, $addtl_args ) {
 
-		$tabs[ 'pods-pfat' ] = __( 'Frontier Auto Display Options', 'pods-pfat' );
+		$tabs[ 'pods-pfat' ] = __( 'Frontier Auto Template Options', 'pods-pfat' );
 
 		return $tabs;
 
