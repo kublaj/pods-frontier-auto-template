@@ -375,8 +375,9 @@ class Pods_PFAT {
 		if ( $archive_test === false || PODS_PFAT_DEV_MODE ) {
 			$front = $this->front_end( true );
 			$auto_pods = $front->auto_pods();
-			foreach ( $auto_pods as $pod ) {
-				if ( !$pod[ 'has_archive' ] && $pod[ 'archive' ] && $pod[ 'type' ] !== 'taxonomy' ) {
+
+			foreach ( $auto_pods as $name => $pod ) {
+				if ( ! $pod[ 'has_archive' ] && $pod[ 'archive' ] && $pod[ 'type' ] !== 'taxonomy' && ! in_array( $name, array( 'post', 'page', 'attachment' ) ) ) {
 					$archive_test[ $pod[ 'label' ] ] = 'fail';
 				}
 
